@@ -50,6 +50,7 @@ def plot_time_series(
     axs[i].set_xlabel('Years')
     
     fig.tight_layout()
+    return fig, axs
 
 
 def plot_ending_balance_hist(
